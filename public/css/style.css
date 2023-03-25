@@ -1,0 +1,34 @@
+a {
+    cursor: pointer;
+}
+
+.el-tag {
+    margin-right: 10px;
+    margin-left: 0px!important;
+}
+
+.button-new-tag {
+    margin-left: 0!important;
+}
+
+.el-select {
+    width: 100%;
+    max-width: 300px!important;
+}
+
+.el-table .cell {
+    text-align: center;
+}
+
+.el-date-editor--datetime{
+	width: 100%!important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .veri-code .el-form-item__label {
+        display: none!important;
+    }
+    .veri-code {
+        margin-top: 20px;
+    }
+}
